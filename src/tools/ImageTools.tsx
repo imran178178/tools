@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 import { Upload, Download, RotateCw, FlipHorizontal, FlipVertical } from 'lucide-react';
-import { ToolWrapper, DropZone } from './PDFTools';
+import { ToolWrapper, DropZone, ToolButton, ResultBox } from './PDFTools';
 
 // Image Resizer
 export function ImageResizer() {
